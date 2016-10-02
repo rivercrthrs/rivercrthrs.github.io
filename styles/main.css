@@ -1,11 +1,49 @@
 h1 {
   color: #cc0000;
   font-family: cursive;
+  font-size: 3em;
+  text-align: center;
+  border: 10px double #cc0000;
+  background-color: white;
+  width: 50%;
+  margin:auto;
+  border-radius: 20px;
+}
+h2 {
+  color: #cc0000;
+  font-family: cursive;
+  font-size: 2em;
+  text-align: center;
+  text-decoration: underline;
 }
 p {
   color: #576d94;
-  font-family: Courier New, inherit;
+  font-family: Courier;
+  font-size: 1em;
+  text-align: center;
+
+
 }
-a {
-  text-decoration: none;
+a  {
+  text-decoration:none;
+  text-align: center;
+  font-size: 1em;
+  cursor: alias;
+
+}
+a:hover{
+  color: #f9bc39;
+}
+h1:hover{
+  color: #f9bc39;
+  cursor: alias;
+}
+* {
+  cursor: help;
+}
+#blog {
+  border: 10px double #cc0000;
+  border-radius: 20px;
+  width: 25%;
+  margin:auto;
 }
