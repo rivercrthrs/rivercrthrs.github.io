@@ -48,3 +48,7 @@ h1:hover{
   margin:auto;
   text-decoration: none;
 }
+.blogpost {
+  background-color: #cc0000;
+  width: 40%;
+}
