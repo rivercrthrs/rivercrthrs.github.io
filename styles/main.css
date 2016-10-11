@@ -52,7 +52,9 @@ h1:hover{
   border: 10px double #cc0000;
   border-radius: 20px;
   width: 40%;
-  min-width: 500px
+  min-width: 500px;
+  padding: 5px;
+  margin: auto;
   text-align: center;
 
 }
