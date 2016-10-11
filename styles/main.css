@@ -49,6 +49,10 @@ h1:hover{
   text-decoration: none;
 }
 .blogpost {
-  background-color: #cc0000;
+  border: 10px double #cc0000;
+  border-radius: 20px;
   width: 40%;
+  min-width: 500px
+  text-align: center;
+
 }
