@@ -32,6 +32,9 @@ a  {
   cursor: alias;
 
 }
+a:link {
+  text-decoration: none;
+}
 a:hover{
   color: #f9bc39;
 }
