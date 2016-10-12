@@ -15,6 +15,7 @@ h2 {
   font-size: 2em;
   text-align: center;
   text-decoration: underline;
+  text-transform: lowercase;
 }
 p {
   color: #576d94;
@@ -47,6 +48,7 @@ h1:hover{
   width: 30%;
   margin:auto;
   text-decoration: none;
+  text-transform: lowercase;
 }
 .blogpost {
   border: 10px double #cc0000;
