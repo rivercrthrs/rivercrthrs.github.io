@@ -63,3 +63,12 @@ h1:hover{
   text-align: center;
 
 }
+ul {
+  list-style-type: none;
+  color: #576d94;
+  font-family: Courier;
+  font-size: 1em;
+  text-align: center;
+
+
+}
