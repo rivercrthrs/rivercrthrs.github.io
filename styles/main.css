@@ -34,6 +34,7 @@ a  {
 }
 a:link {
   text-decoration: none;
+  color: #576d94;
 }
 a:hover{
   color: #f9bc39;
