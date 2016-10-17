@@ -1,3 +1,9 @@
+.row {
+  height: 45px;
+  border-bottom: solid black 1px;
+  margin-bottom: 45px;
+
+}
 
 ul.navlist {
   margin-left: 26%;
@@ -11,7 +17,7 @@ ul.navlist li{
   float: right;
   display: inline-block;
   height: auto;
-  padding: 4px;
+  padding-right: 16px;
 }
 ul.navlink li a {
   color: white;
@@ -49,39 +55,31 @@ background-size: cover;
 }
 
 /* Dropdown*/
-.dropdown {
-
-
-    /** Make it fit tightly around it's children */
-    display: inline-block;
+.dropdown { /** Make it fit tightly around it's children */
+    display: inline;
     list-style: none;
     text-align: left;
     text-decoration: none;
     float: right;
-    display: inline-block;
     height: auto;
+    position: static;
 }
+.dropdown-menu {
+  display: inline;
+  float: left;
+  margin-right: inherit;
 
+}
 .dropdown .dropdown-menu {
-    position: absolute;
-    left: 0;
-}
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown .dropdown-menu {
-    position: absolute;
+    position: fixed;
     display: none;
-    margin: 0;
-    list-style: none; /** Remove list bullets */
+
+    list-style: none;
+
+
 }
 .dropdown:hover .dropdown-menu {
-    display: block;
+    display: inline-block;;
     color: #FFC720;
 }
 #blogdrop  {
@@ -89,24 +87,15 @@ background-size: cover;
     border: none;
     margin: 0;
     font-size: 2em;
+    text-align: right;
 }
 .dropdown a {
-    display: block;
     text-decoration: none;
     color: black;
     font-size: 1em;
 }
 .dropdown a:hover {
     color: #FFC720;
-
-}
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
 }
 
 /*-------------Blog------*/
@@ -115,7 +104,7 @@ hr {
   background:rgba(255,255,255, 0.5);
   padding: 10px;
   margin: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .bloghead {
   color: black

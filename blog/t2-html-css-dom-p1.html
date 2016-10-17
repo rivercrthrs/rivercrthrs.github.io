@@ -1,24 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>bb's first blog</title>
-  <meta charset="UTF-8">
-  <link href="https://rivercrthrs.github.io/styles/main.css" rel="stylesheet" type="text/css">
-</head>
 
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>blog</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="stylesheet" href="../styles/normalize.css">
+  <link rel="stylesheet" href="../styles/skeleton.css">
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
 <body>
-  <a href="https://rivercrthrs.github.io"><h1>bb's first site</h1></a>
-  <h2>html + css + dom</h2>
-  <div class="blogpost">
-    <ul>
-      <li>HTML - hypertext markup language</li>
-      <li>CSS - cascading style sheets</li>
-      <li>DOM - document object model</li>
-    </ul>
-    <p>HTML and CSS are the two most basic languages used to create a website, HTML creates a basic structure and CSS styles the structure to make it beautiful and user-friendly. Your web-browser (chrome, firefox, safari etc.) translates/combines the HTML and CSS languages into the website you see online. </p>
-    <p>HTML is like the structure of a house, creating the foundation, walls etc. on which you can apply many different materials to style the house to your taste. Once you have the basic structure you can choose what type of floors (maybe hardwood), the different paint colors (green?) etc. which would be like the CSS.</p>
-    <p>A website is a grid of boxes/rectangles which surround each element of the webpage e.g. a paragraph or an image. When designing a webpage you want to imagine these boxes around each element and then group the elements in larger boxes in order to structure a website.</p>
-    <p>The box around each element consists of the content in the center surrounded by a padding layer between it the and border. After the border there is the margin which separates it from the elements around it. </p>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="four.column">
+        <ul class="navlist">
+          <li><a class="navlink" href="https://rivercrthrs.github.io/">home</a></li>
+          <div class="dropdown">
+            <li><a id="blogdrop" href="#">blog</a>
+              <ul class="dropdown-menu">
+                <li><a href="https://rivercrthrs.github.io/blog/c1-reflection-blog.html">experience vs entertainment</a></li>
+                <li><a href="https://rivercrthrs.github.io/blog/c1-time-and-habits-blog.html">time + habits + motivation</a></li>
+                <li><a href="https://rivercrthrs.github.io/blog/c2-emotional-intelligence.html">emotional intelligence</a></li>
+                <li><a href="https://rivercrthrs.github.io/blog/t2-html-css-dom-pt1.html">html + css + dom</a></li>
+                <li><a href="https://rivercrthrs.github.io/blog/t2-html-css-dom-pt2.html">grid + responsive webpages</a></li>
+              </ul>
+            </li>
+          </div>
+
+        </ul>
+      </div>
+    </div>
   </div>
-</body>
-</html>
+    <!-- blog
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+        <dif class="ten.column">
+        <div class="blog">
+          <h2 class="bloghead">html + css + dom</h2>
+
+          <ul>
+            <li>HTML - hypertext markup language</li>
+            <li>CSS - cascading style sheets</li>
+            <li>DOM - document object model</li>
+          </ul>
+          <p>HTML and CSS are the two most basic languages used to create a website, HTML creates a basic structure and CSS styles the structure to make it beautiful and user-friendly. Your web-browser (chrome, firefox, safari etc.) translates/combines the HTML and CSS languages into the website you see online. </p>
+          <p>HTML is like the structure of a house, creating the foundation, walls etc. on which you can apply many different materials to style the house to your taste. Once you have the basic structure you can choose what type of floors (maybe hardwood), the different paint colors (green?) etc. which would be like the CSS.</p>
+          <p>A website is a grid of boxes/rectangles which surround each element of the webpage e.g. a paragraph or an image. When designing a webpage you want to imagine these boxes around each element and then group the elements in larger boxes in order to structure a website.</p>
+          <p>The box around each element consists of the content in the center surrounded by a padding layer between it the and border. After the border there is the margin which separates it from the elements around it. </p>
+
+      </div>
+    </div>
+
+    <!-- End Document
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  </body>
+  </html>

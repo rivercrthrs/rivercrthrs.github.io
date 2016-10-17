@@ -1,18 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>bb's first blog</title>
-  <meta charset="UTF-8">
-  <link href="https://rivercrthrs.github.io/styles/main.css" rel="stylesheet" type="text/css">
-</head>
 
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>grid + responsive webpages</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="stylesheet" href="../styles/normalize.css">
+  <link rel="stylesheet" href="../styles/skeleton.css">
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
 <body>
-  <a href="https://rivercrthrs.github.io"><h1>bb's first site</h1></a>
-  <h2>Grid + Responsive Webpages</h2>
-  <div class="blogpost">
-    <p>A great way to structure the layout of a webpage is using a grid system. The grid system divides the page into a number of columns (12 works well) and rows spanning the width of the page. You then can position different boxes/elements on the page by indicating how many columns they use e.g. if you wanted to have something take up half of the webpage you would designate it to 6 of the 12 columns.</p>
-    <p>In 2016 people use many different sized screens, anything from huge monitors/projectors to a small phone or tablet. Because of this diversity it is important to design a webpage to be responsive i.e. for it to have a good user experience regardless of the screen size. Using a grid system helps to accomplish this because we can work with percentages of the screen size rather then fixed pixels that don’t take the size of the screen into account. As an example if you wanted a picture to take up half a screen using the grid system you would designate it to 6 of the 12 columns (or 50%) of the screen rather then a fixed 500 pixels.</p>
-    <p>When writing in html is it important to have a clear method of defining what html elements are being used for e.g. sidebar, blog navigation or bio. This is the semantic structure of html. I’m still working to understand the best method in naming different classes and id’s but at the moment I’m still experimenting and learning.</p>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="four.column">
+        <ul class="navlist">
+          <li><a class="navlink" href="https://rivercrthrs.github.io/">home</a></li>
+          <div class="dropdown">
+            <li><a id="blogdrop" href="#">blog</a>
+              <ul class="dropdown-menu">
+                <li><a href="https://rivercrthrs.github.io/blog/c1-reflection-blog.html">experience vs entertainment</a></li>
+                <li><a href="https://rivercrthrs.github.io/blog/c1-time-and-habits-blog.html">time + habits + motivation</a></li>
+                <li><a href="https://rivercrthrs.github.io/blog/c2-emotional-intelligence.html">emotional intelligence</a></li>
+                <li><a href="https://rivercrthrs.github.io/blog/t2-html-css-dom-pt1.html">html + css + dom</a></li>
+                <li><a href="https://rivercrthrs.github.io/blog/t2-html-css-dom-pt2.html">grid + responsive webpages</a></li>
+              </ul>
+            </li>
+          </div>
+
+        </ul>
+      </div>
+    </div>
   </div>
-</body>
-</html>
+    <!-- blog
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+        <dif class="ten.column">
+        <div class="blog">
+          <h2 class="bloghead">grid + responsive webpages</h2>
+          <p>A great way to structure the layout of a webpage is using a grid system. The grid system divides the page into a number of columns (12 works well) and rows spanning the width of the page. You then can position different boxes/elements on the page by indicating how many columns they use e.g. if you wanted to have something take up half of the webpage you would designate it to 6 of the 12 columns.</p>
+          <p>In 2016 people use many different sized screens, anything from huge monitors/projectors to a small phone or tablet. Because of this diversity it is important to design a webpage to be responsive i.e. for it to have a good user experience regardless of the screen size. Using a grid system helps to accomplish this because we can work with percentages of the screen size rather then fixed pixels that don’t take the size of the screen into account. As an example if you wanted a picture to take up half a screen using the grid system you would designate it to 6 of the 12 columns (or 50%) of the screen rather then a fixed 500 pixels.</p>
+          <p>When writing in html is it important to have a clear method of defining what html elements are being used for e.g. sidebar, blog navigation or bio. This is the semantic structure of html. I’m still working to understand the best method in naming different classes and id’s but at the moment I’m still experimenting and learning.</p>
+
+      </div>
+    </div>
+
+    <!-- End Document
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  </body>
+  </html>
