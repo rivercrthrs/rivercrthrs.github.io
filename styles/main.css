@@ -111,3 +111,6 @@ background-size: cover;
 .blogtext p {
   color: black
 }
+.wireframe-image {
+  max-width: 100%;
+}
