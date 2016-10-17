@@ -60,7 +60,6 @@ background-size: cover;
     list-style: none;
     text-align: left;
     text-decoration: none;
-    float: right;
     height: auto;
     position: static;
 }
@@ -87,7 +86,7 @@ background-size: cover;
     border: none;
     margin: 0;
     font-size: 2em;
-    text-align: right;
+    text-align: center;
 }
 .dropdown a {
     text-decoration: none;
